@@ -1,0 +1,1 @@
+DEVICE_LIST = ['sensor_hum', 'sensor_tmp', 'relay']
