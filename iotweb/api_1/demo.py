@@ -19,7 +19,7 @@ def add_user():
     Just use for testing.
     :return:
     """
-    user = models.User(name='alonebo')
+    user = models.User(name='admin')
     user.password = "alonebo"
     db.session.add(user)
     db.session.commit()

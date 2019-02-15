@@ -4,7 +4,8 @@ import redis
 class Config(object):
     SECRET_KEY = "SECRET_KEY"
 
-    SQLALCHEMY_DATABASE_URI = "mysql+pymysql://root:alonebo@127.0.0.1:3306/db_iotweb?charset=utf8"
+    # SQLALCHEMY_DATABASE_URI = "mysql+pymysql://root:alonebo@127.0.0.1:3306/db_iotweb?charset=utf8"
+    SQLALCHEMY_DATABASE_URI = "sqlite:///user.db"
     SQLALCHEMY_TRACK_MODIFICATIONS = True
 
     REDIS_HOST = '127.0.0.1'
